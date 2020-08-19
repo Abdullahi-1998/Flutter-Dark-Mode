@@ -20,7 +20,7 @@ class _ThemeChangerPageState extends State<ThemeChangerPage> {
             child: Row(
               children: <Widget>[
                 Switch(
-                  value: themeProvider.isLightTheme,
+                  value: themeProvider.isDarkTheme,
                   onChanged: (val) {
                     themeProvider.setThemeData = val;
                   },
